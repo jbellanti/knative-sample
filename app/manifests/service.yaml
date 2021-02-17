@@ -7,7 +7,7 @@ spec:
   template:
     spec:
       containers:
-        - image: docker.io/jordanbellanti/helloworld-python
+        - image: docker.io/jordanbellanti/helloworld-python:v0.1.0
           env:
             - name: TARGET
               value: "Python Sample v1"
